@@ -1,6 +1,26 @@
 <div class="jumbotron">
  <h1>Welcome to GeeksPantry</h1>   
- <h3> Your kitchen to build awesome tech recipes</h3>
+ <h3> Get the skills you need!!!</h3>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+   <div class = "well">
+     <h2 class="text-center">Basic Membership </h2>
+     <h4>Sign up for free and get basic access</h4>
+     <br/>
+     <%=link_to "Sign up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+   </div>
+  </div>
+ 
+  <div class="col-md-6">
+   <div class = "well">
+     <h2 class="text-center">Pro Membership</h2>
+     <h4> Sign up for the pro account for $1/month</h4>
+     <br/>
+     <%=link_to "Sign up with pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+   </div>
+  </div>
 </div>
 
 
